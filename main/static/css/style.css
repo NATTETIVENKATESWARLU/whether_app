@@ -1,0 +1,138 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  /* Navbar */
+  .navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem 1.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    color: #00f2fe;
+  }
+  
+  .navbar-tech {
+    margin-left: auto;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .navbar-tech:hover {
+    color: #fff;
+  }
+  
+  /* Jumbotron */
+  #jumbotron {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 3rem 2rem;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  #jumbotron h1 {
+    font-size: 2.5rem;
+  }
+  
+  #jumbotron h5 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #00f2fe;
+  }
+  
+  #jumbotron img {
+    margin-top: 1rem;
+    width: 100px;
+  }
+  
+  /* Form Input */
+  input[type="text"] {
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    height: 45px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Card Styles */
+  .card {
+    width: 90%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+    color: #333;
+  }
+  
+  .card-body h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .badge-primary {
+    background: #007bff;
+    color: #fff;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .card-body img {
+    width: 70px;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  
+    #jumbotron h1 {
+      font-size: 2rem;
+    }
+  
+    input[type="text"] {
+      font-size: 0.9rem;
+    }
+  
+    .btn-primary {
+      padding: 0.4rem 1.2rem;
+    }
+  }
+  
